@@ -9,7 +9,7 @@ timeout-minutes: 360
 steps:
 - name: Downloading & Installing Essentials
 run: |
-Invoke-WebRequest -Uri
+Invoke-WebRequest-Uri
 "https://gitlab.com/raposabrty/pcrdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
 cmd /c Downloads.bat
 
